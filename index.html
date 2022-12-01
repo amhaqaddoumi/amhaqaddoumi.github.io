@@ -1,1 +1,16 @@
-<h1>Test</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>AR Viewer</title>
+    <script src="ar-viewer.ar.bundle.js"></script>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <a-scene id="ar-scene" ar-scene>
+      <a-entity camera id="ar-camera"></a-entity>
+    </a-scene>
+    <script src="ar-viewer.ui.bundle.js"></script>
+  </body>
+</html>
